@@ -1,0 +1,136 @@
+
+@media (max-width: 56em) {
+    button{
+        display: block;
+        background-color:transparent;
+        border: none;
+        font-size: 2rem;
+    }
+    ul{
+        display: none;
+    }
+}
+@media (max-width: 1091px) {
+    .sec{
+        font-size: 1rem;
+    }
+    .section{
+     padding: 0;
+    }
+}
+@media (max-width: 564px) {
+    .section{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .sec:nth-child(3){
+        grid-column: 1/-1;
+    }
+}
+@media (max-width: 386px){
+    .section{
+        grid-template-columns:1fr;
+    }
+}
+@media (max-width: 1357px){
+    .main-text{
+        font-size: 1.2rem;
+    }
+    .article-main{
+        width: 90%;
+    }
+}
+@media (max-width: 1101px){
+    .main-img{
+        margin-right:2rem;
+    }
+}
+@media (max-width: 947px){
+    .main-text{
+        font-size: 1rem;
+    }
+    .article-main{
+        width: 100%;
+    }
+}
+@media (max-width: 833px){
+    .article-main{
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
+}
+@media (max-width: 1270px){
+.article-aside{
+    width: 100%;
+}
+}
+@media (max-width: 793px){
+    .wrapper{
+        justify-content: center;
+    }
+    .aside-image{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+@media (max-width: 793px){
+    .wrapper{
+        justify-content: center;
+    }
+    .aside-image{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+@media (max-width:603px){
+    .wrapper{
+        grid-template-columns:1fr;
+    }
+    .aside-image{
+        width: 6rem;
+        height: 6rem;
+    }
+}
+@media (max-width:591px){
+    .main-img{
+        width: 35rem;
+        padding: 2rem;
+    }
+    .main-text{
+        padding: 2rem;
+        margin-top: -2rem;
+        line-height: 2.3rem;
+    }
+    aside{
+        padding: 0 6rem;
+    }
+}
+@media (max-width:415px){
+
+    aside{
+        margin: 0 auto;
+        width: 10rem;
+    }
+}
+@media (max-width:930px){
+    footer div{
+       flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:1050px){
+    .second-aside p{
+        width: 60%;
+
+    }
+
+}
+@media (max-width:600px){
+  .wrapper{
+      margin-left: 2rem;
+  }
+    .fourth-aside{
+        margin-bottom: 2rem;
+    }
+}
